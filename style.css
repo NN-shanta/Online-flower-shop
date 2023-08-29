@@ -74,26 +74,67 @@ section {
   width: 200px;
   height: 250px;
 }
-.sale-part{
-    text-align: center;
+.sale-part {
+  text-align: center;
 }
-.sale-part span{
-    color: rgb(229, 84, 115);
+.sale-part span {
+  color: rgb(229, 84, 115);
 }
-.deal-image img{
+.deal-image img {
   display: block;
-  height:90%;
+  height: 90%;
   width: 70%;
   margin-top: 10%;
-  
 }
-.insta{
-    display: flex;
-    gap: 30px;
-    margin-left: 200px;
+.insta {
+  display: flex;
+  gap: 30px;
+  margin-left: 200px;
 }
-.insta img{
+.insta img {
   width: 200px;
-  /* padding: 90px 25px 20px 25px;
-  margin-left: 40px; */
+}
+.background {
+  background: url("/images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: 82%;
+  margin-left: 15%;
+  display: block;
+}
+
+.update {
+  text-align: center;
+  padding: 35px 250px 0px 0px;
+}
+.update-button {
+  display: flex;
+  padding: 40px 220px;
+  gap: 15px;
+}
+.update-button input {
+  border: none;
+  padding: 10px 50px 10px 10px;
+  font-size: 20px;
+}
+.footer {
+  background-color: #01010f;
+  padding: 20px;
+  text-align: center;
+}
+.footer p {
+  color: rgb(211, 203, 203);
+}
+.foot-p{
+    color: rgb(100, 97, 97);
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+.footer h3 {
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(233, 68, 68);
+}
+.footer span{
+    color: white;
 }
