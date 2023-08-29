@@ -37,8 +37,8 @@ body {
   text-align: center;
   padding: 100px 300px;
 }
-.paragraph-colour {
-  color: rgb(49, 46, 46);
+.text h3{
+  margin-left: 80px;
 }
 section {
   display: flex;
@@ -137,4 +137,16 @@ section {
 }
 .footer span{
     color: white;
+}
+
+.review {
+  width: 20%;
+  padding: 60px 25px 0px 25px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.bg-color {
+  background-image: linear-gradient(#ce9986, #cfb5b1);
+  margin-left: 90px;
 }
