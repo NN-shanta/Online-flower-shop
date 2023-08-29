@@ -45,15 +45,13 @@ section {
   margin-bottom: 100px;
 }
 .feature-plan {
-  width: 20%;
-  padding: 60px 25px 20px 25px;
-  border-radius: 30px;
-  text-align: center;
+  width: 250px;
+  padding: 90px 25px 20px 25px;
+  border-radius: 300px 300px 0px 0px;
 }
 .bg-color1 {
   background-image: linear-gradient(#ebdbd5, #f0e9e8);
   margin-left: 150px;
-  border-right: 30px;
 }
 .bg-color2 {
   background-image: linear-gradient(#d0c6eb, #e2e1e4);
@@ -65,4 +63,14 @@ section {
   margin-left: 30px;
   border-right: 50px;
 }
-
+.text {
+  display: block;
+  text-align: center;
+}
+.text a {
+  color: rgb(14, 12, 12);
+}
+.feature-plan img {
+  width: 200px;
+  height: 250px;
+}
